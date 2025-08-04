@@ -51,7 +51,7 @@ plt.bar(x, y, width=20)  # width em dias (para eixo datetime)
 
 plt.xlabel("Ano")
 plt.ylabel("Preço (US$/libra-peso)")
-plt.title("Variação Mensal do Preço Internacional do Café")
+plt.title("Variação Mensal de Preço do Café em Cidades Americanas")
 plt.show()
 
 
@@ -111,7 +111,7 @@ fig, ax1 = plt.subplots(figsize=(10, 4), dpi=300)
 # cafe
 ax1.bar(historico_precos_cafe['time'], historico_precos_cafe['price'], 
         width=50, color='blue', alpha=0.7, label='Preço Café (US$/libra)')
-ax1.set_ylabel("Preço do Café (US$/lb)", color='')
+ax1.set_ylabel("Preço do Café (US$/lb)", color='saddlebrown')
 ax1.tick_params(axis='y', labelcolor='saddlebrown')
 
 # cpi
